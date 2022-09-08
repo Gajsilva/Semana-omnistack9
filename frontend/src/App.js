@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import logo from './assets/logo.svg';
 
-import Routess from './routes';
+import Routes from './routes';
 
 function App() {
   return (
@@ -11,8 +11,7 @@ function App() {
         <img src={logo} alt="" />
 
         <div className='content'>
-          <Routess />
-        
+          <Routes />
         </div>
 
     </div>
